@@ -1,0 +1,20 @@
+Package: SanAntonioData
+Type: Package
+Title: Hydrometeorological dataset of San Antonio Basin - Uruguay
+Version: 0.1.0
+Authors@R: 
+    person(given = "Rafael",
+           family = "Navas",
+           role = c("aut", "cre"),
+           email = "rafaelnavas23@gmail.com",
+           comment = c(ORCID = "https://orcid.org/0000-0001-8559-9523"))
+Maintainer: Rafael Navas <rafaelnavas23@gmail.com>
+Description: Water level, gaugings, precipitation, streamflows datasets of San Antonio Basin - Uruguay.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.1.1
+Imports: 
+    tibble
